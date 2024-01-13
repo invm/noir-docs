@@ -1,6 +1,8 @@
 {
-  "label": "Tutorial - Basics",
-  "position": 2,
+  "label": "Using the app",
+  "position": 3,
+  "collapsed": false,
+  "collapsible": false,
   "link": {
     "type": "generated-index",
     "description": "5 minutes to learn the most important Docusaurus concepts."

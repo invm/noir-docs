@@ -63,7 +63,7 @@ const config = {
       title: 'Noir',
       logo: {
         alt: 'Noir logo',
-        src: 'img/logo.svg',
+        src: 'img/icon.png',
       },
       items: [
         // {
