@@ -18,3 +18,5 @@ Once you add a connection, it will appear in the connection list on the right
 Clicking on the **Enter** icon will open the connection in a new tab.
 
 Right-clicking on the connection will give you the option to **Delete** the connection.
+
+Once a connection is established, if you choose not to close it manually, on next app launch it will be restored unless the database is unreachable.

@@ -87,20 +87,12 @@ const config = {
           title: 'Docs',
           items: [
             {
-              label: 'Introduction',
-              to: '/intro',
+              label: 'Getting started',
+              to: '/',
             },
             {
-              label: 'Features',
-              to: '/features',
-            },
-            {
-              label: 'Installation',
-              to: '/installation',
-            },
-            {
-              label: 'Usign Noir',
-              to: '/usage',
+              label: 'Using Noir',
+              to: '/category/using-the-app',
             },
           ],
         },

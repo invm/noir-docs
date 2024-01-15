@@ -14,6 +14,7 @@ Noir is a modern cross-platform database client that tries to deliver a great ex
 
 ## 🔥 Features
 
+- 👋 Free and open source!
 - 💻 Cross-platform - Linux, Macos and Windows
 - 🚀 Blazingly fast
 - 👨‍👩‍👦‍👦 Multiple simultaneous connections
@@ -31,3 +32,33 @@ Noir is a modern cross-platform database client that tries to deliver a great ex
 
 1. MySQL
 2. Postgresql
+
+## 🛠️ Installation
+
+Download the latest release from [here](https://github.com/invm/noir/releases) for your platform.
+
+### MacOS
+
+MacOS users will choose between arm-based and intel-based processors.
+In the files above the arm-based processor files are ending with `_aarch64.dmg` and the intel-based processor files are ending with `_x64.dmg`.
+
+### Linux
+
+Linux users can choose between the `.deb` package and the AppImage.
+
+### Windows
+
+Windows users can choose between the `.exe` installer and the `.msi` installer.
+
+## Mechanics
+
+Noir implements a smart cache technique by caching queries by tabs and their position in that tab for each connection.
+Meaning in case of:
+
+```sql
+select name from user;
+
+select id from product;
+```
+
+Each query will be executed separately and cached in its own file. The cache lives in a temporary folder that clears upon system restarts.
