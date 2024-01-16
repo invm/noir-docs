@@ -73,6 +73,11 @@ const config = {
         //   label: 'Tutorial',
         // },
         // {to: '/blog', label: 'Blog', position: 'left'},
+
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/invm/noir',
           label: 'GitHub',
