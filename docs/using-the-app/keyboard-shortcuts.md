@@ -12,8 +12,8 @@ By pressing F1 from anywhere you'll be shown the keyboard shortcuts, by pressing
 ## Available shortcuts
 
 - Execute query: <button>Ctrl</button> + <button>E</button> / <button>Enter</button>
-- Select tab: <button>Ctrl/Cmd</button> + <button>number</button>
-- Select connection tab: <button>Ctrl/Cmd</button> + <button>Shift</button> + <button>number</button>
+- Select tab: <button>Alt/Cmd</button> + <button>number</button>
+- Select connection tab: <button>Ctrl/Cmd</button> + <button>number</button>
 - New tab: <button>Ctrl/Cmd</button> + <button>T</button>
 - Close current tab: <button>Ctrl/Cmd</button> + <button>W</button> 
 - Focus on editor: <button>Ctrl</button> + <button>L</button> 
