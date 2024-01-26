@@ -5,6 +5,7 @@
   "collapsible": false,
   "link": {
     "type": "generated-index",
-    "description": "Explore everything you can do with the app."
+    "description": "Explore everything you can do with the app.",
+    "slug": "using-the-app"
   }
 }
