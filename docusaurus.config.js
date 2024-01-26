@@ -93,7 +93,7 @@ const config = {
               to: '/',
             },
             {
-              label: 'Using Noir',
+              label: 'Using the app',
               to: '/using-the-app/',
             },
           ],

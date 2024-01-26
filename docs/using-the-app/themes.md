@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 description: 'Modify every corner of the app to your liking'
 ---
 import themestoggle from './img/themes-toggle.png'
