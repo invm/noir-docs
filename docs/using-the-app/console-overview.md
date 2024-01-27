@@ -19,12 +19,14 @@ At any point in time the console will be on any of the following tab types:
 The query tab is the default tab when opening a new one, and most used, it has the editor and the limited results grid.
 The limitation of the grid are as follows:
 
-- no option to edit rows from the table.
+- no option to add, edit or delete rows from the table.
 - no constraints icons on the columns
 
 ### Data tab
 
-The data tab will be shown when you right click a table or a view and select show data, this tab has the results grid without the limitation mentioned above and allow to edit rows straight from the table and show constraints icons on columns header, making then uneditable.
+The data tab will be shown when you right click a table or a view and select "View data".
+
+The result grid on the data tab has no limitations like mentioned above and allow to add, edit and delete rows straight from the table and show foreign and primary key constraints icons on columns header.
 
 When a change has been made on any row, 2 buttons will appear on the pagination component that will allow to either commit the changes or reset them.
 
@@ -145,3 +147,5 @@ Other then reviewing the results, the grid allow some actions when right-clickin
 - Copy row
 - Copy cell
 - Edit row (only on data tab and the column is editable)
+- Add row (only on data tab)
+- Delete row (only on data tab)

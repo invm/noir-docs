@@ -15,4 +15,10 @@ After a query is ran and has results, you will see two new buttons appear:
 
 By clicking any of the button, a prompt will appear to select download location.
 
+:::tip
+Try exporting also with <button>Ctrl/Cmd</button> + <button>C/J</button>.
+
+C stands for CSV and J for JSON.
+:::
+
 JSON array just exports all results serielized as json object in an array.
