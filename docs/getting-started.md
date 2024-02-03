@@ -31,7 +31,8 @@ Noir is a modern cross-platform database client that tries to deliver a great ex
 
 1. **Postgresql**
 2. **MySQL**
-2. **SQLite**
+3. **MariaDB**
+4. **SQLite**
 
 ## ⚙️ Mechanics
 

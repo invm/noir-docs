@@ -27,7 +27,7 @@ Providing certificates automatically attaches them when connecting to a database
 
 Connecting to Postgresql is available with CA root certificate, client certificate and client key
 
-### Mysql
+### Mysql and MariaDB
 
 Connecting to Mysql is available with CA root certificate and client p12 certificate.
 
