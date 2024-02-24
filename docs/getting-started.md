@@ -24,7 +24,7 @@ Noir is a modern cross-platform database client that tries to deliver a great ex
 - 🏃‍♂️ Run multiple queries at once and paginate between results
 - ⌨️ Keyboard-driven, achieve everything with only the keyboard
 - 🎡 Modify ui, grid and editor themes however you like
-- 📈 Viewcomplex rows in a JSON mod which allows search
+- 📈 View complex rows in a JSON mod which allows search
 - 👉 Quick actions
 
 ### Supported databases
