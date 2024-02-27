@@ -16,12 +16,12 @@ Noir is a modern cross-platform database client that tries to deliver a great ex
 
 - 👋 Free and open source!
 - 💻 Cross-platform - Linux, Macos and Windows
-- 👨‍👩‍👦‍👦 Multiple simultaneous connections
+- 📚 Multiple simultaneous connections
 - 🗂️ Multiple query tabs
 - 📄 Export as CSV or JSON array
-- 📝 Slick editor, with autocomplete, vim mode, formatting and more
+- 📝 Sleek editor, with autocomplete, vim mode, formatting and more
 - 📊 Modern, fast grid for results display
-- 🏃‍♂️ Run multiple queries at once and paginate between results
+- 🏃 Run multiple queries at once and paginate between results
 - ⌨️ Keyboard-driven, achieve everything with only the keyboard
 - 🎡 Modify ui, grid and editor themes however you like
 - 📈 View complex rows in a JSON mod which allows search
