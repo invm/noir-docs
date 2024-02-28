@@ -11,7 +11,7 @@ const KEYMAPS = [
     keys: [
       { action: 'Select tab', keys: ['Alt/Cmd', 'number'] },
       { action: 'Select connection tab', keys: ['Ctrl/Cmd', 'number'] },
-      { action: 'Add new connection', keys: ['Ctrl/Cmd', '` (tilde)'] },
+      { action: 'Add new connection', keys: ['Ctrl/Cmd', '` (backtick)'] },
     ],
   },
   {
