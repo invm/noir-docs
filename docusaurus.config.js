@@ -7,7 +7,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Noir',
-  tagline: 'Database management client',
+  tagline: 'Unleash the Power of Seamless Database Management – Navigate, Query, and Optimize, All at Your Fingertips',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -60,7 +60,7 @@ const config = {
       respectPrefersColorScheme: false,
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Noir',
       logo: {
@@ -68,13 +68,14 @@ const config = {
         src: 'img/icon.png',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Tutorial',
-        // },
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Documentation',
+        },
+        {to: '/installation', label: 'Installation', position: 'left'},
+        {to: '/using-the-app', label: 'Using the app', position: 'left'},
         {
           href: 'https://github.com/invm/noir',
           label: 'GitHub',
@@ -90,7 +91,11 @@ const config = {
           items: [
             {
               label: 'Getting started',
-              to: '/',
+              to: '/getting-started/',
+            },
+            {
+              label: 'Installation',
+              to: '/installation/',
             },
             {
               label: 'Using the app',
