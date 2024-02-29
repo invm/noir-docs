@@ -23,6 +23,16 @@ xattr -cr ./Noir.app
 
 Linux users can choose between the `.deb` package and the AppImage.
 
+#### How to run AppImage?
+
+```
+# Change permissions
+chmod +x Noir.AppImage
+./Noir.AppImage
+```
+**AppImages require FUSE version 2 to run. You may need to install and configure FUSE manually.**
+https://github.com/AppImage/AppImageKit/wiki/FUSE
+
 ### Windows
 
 Windows users can choose between the `.exe` installer and the `.msi` installer.
