@@ -18,8 +18,8 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
- --ifm-color-primary: #61b3ff;
+[data-theme="dark"] {
+  --ifm-color-primary: #61b3ff;
   --ifm-color-primary-dark: #3ea2ff;
   --ifm-color-primary-darker: #2c9aff;
   --ifm-color-primary-darkest: #0080f6;
@@ -27,4 +27,24 @@
   --ifm-color-primary-lighter: #96ccff;
   --ifm-color-primary-lightest: #cbe6ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.ph-color {
+  background: linear-gradient(227deg, #ff4582, #ff6154);
+  color: white;
+}
+
+.ph-color:hover {
+  background: linear-gradient(227deg, #ff6154, #ff4582);
+  color: black;
+}
+
+.gh-color {
+  background: black;
+  color: white;
+}
+
+.gh-color:hover {
+  background: white;
+  color: black;
 }
